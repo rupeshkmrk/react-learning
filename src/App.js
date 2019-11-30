@@ -1,11 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Counter from "./components/counter";
+import FunctionClick from "./components/FunctionalClick";
+import ClassClick from "./components/ClassClick";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+      <FunctionClick />
+      <ClassClick />
+      {/* <Counter /> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +24,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
