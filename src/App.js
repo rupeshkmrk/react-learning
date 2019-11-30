@@ -4,12 +4,16 @@ import './App.css';
 import Counter from "./components/counter";
 import FunctionClick from "./components/FunctionalClick";
 import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
+
 function App() {
   return (
     <div className="App">
 
-      <FunctionClick />
-      <ClassClick />
+      <EventBind />
+
+      {/* <FunctionClick />
+      <ClassClick /> */}
       {/* <Counter /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
